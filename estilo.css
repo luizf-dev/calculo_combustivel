@@ -1,0 +1,84 @@
+body {
+    background-color: dimgray;
+}
+
+main {
+    padding: 10px;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+label {
+    font-weight: bold;
+}
+
+div {
+    padding-bottom: 4px;
+}
+
+.campoTexto {
+    width: 100%;
+    padding: 8px 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border-color: #D9EDF7;
+    border-radius: 4px;
+}
+
+h3 {
+    background-color: #D9EDF7;
+    color: #286090;
+    margin: 0;
+    padding: 12px;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: black 2px 2px 1px;
+    border: 2px solid black;
+}
+
+.botao {
+    background-color: #286090;
+    color: #FFFEFA;
+    text-align: center;
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    display: block;
+}
+
+.painel {
+    border-width: thin;
+    border-style: solid;
+    border-color: #222;
+    flex-grow: 1;
+    border-radius: 8px;
+    max-width: 500px;
+    height: 500px;
+    background-color: #fff;
+}
+
+.conteudo-painel {
+    padding: 15px;
+}
+
+.sucesso {
+    padding: 10px;
+    border-collapse: collapse;
+    border-style: groove;
+    border-color: #000;
+    background-color: #DFF0D8;
+    color: #3C763D;
+}
+
+.erro {
+    padding: 10px;
+    flex-grow: 1;
+    border-style: double;
+    border-color: #000;
+    background-color: #F2DEDE;
+    color: #A94442;
+    font-weight: bold;
+}
